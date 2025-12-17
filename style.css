@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #00ff00;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#lang-btn {
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#lang-btn:hover {
+    background-color: #00cc00;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills-list, #education-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills-list li, #education-list li {
+    background-color: #111;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+}
+
+#experience-content .job {
+    background-color: #111;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
