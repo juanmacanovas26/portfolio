@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Manuel Canovas - Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="hero">
         <div class="container">
             <h1 id="name">Juan Manuel Canovas</h1>
+            <p id="tagline">IA & Automation Engineer | Co-Founder</p>
             <button id="lang-btn">Español</button>
         </div>
     </header>
@@ -22,12 +25,28 @@
     <section id="skills" class="section">
         <div class="container">
             <h2 id="skills-title">Skills</h2>
-            <ul id="skills-list">
-                <li>Frontend Development: HTML, CSS, JavaScript, Bootstrap, Angular, TypeScript</li>
-                <li>Automation & AI: N8N, Selenium, Multi-Agent Systems</li>
-                <li>Backend & Tools: Java, Git, REST APIs, Authentication (Auth0), DevOps (Deployment, Monitoring)</li>
-                <li>Soft Skills: Teamwork, Problem-Solving, Adaptability</li>
-            </ul>
+            <div id="skills-grid" class="grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap, Angular, TypeScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automation & AI</h3>
+                    <p>N8N, Selenium, Multi-Agent Systems</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend & Tools</h3>
+                    <p>Java, Git, REST APIs, Authentication (Auth0), DevOps (Deployment, Monitoring)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Soft Skills</h3>
+                    <p>Teamwork, Problem-Solving, Adaptability</p>
+                </div>
+            </div>
         </div>
     </section>
     <section id="experience" class="section">
@@ -36,12 +55,12 @@
             <div id="experience-content">
                 <div class="job">
                     <h3>IA & Automation Engineer (Co-Founder)</h3>
-                    <p>DSFP (Automation & AI Startup), 2024 - Present</p>
+                    <p class="job-company">DSFP (Automation & AI Startup), 2024 - Present</p>
                     <p>Designed and developed advanced automations using N8N, integrating external APIs, webhooks, and scalable workflows to deliver value for clients. Implemented AI multi-agent systems for intelligent analysis, autonomous responses, and operational support. Created lead recovery bots, intelligent scheduling systems, and sophisticated automations with platforms like GoHighLevel for seamless data injection and synchronization. Developed React-based web applications to manage automation flows, including custom internal tools such as monthly commission dashboards for sales teams. Handled light DevOps responsibilities, including cloud deployment, monitoring, and maintenance for optimal system stability and availability. Managed REST API integrations, authentication flows, credential management, and basic security protocols across multiple systems.</p>
                 </div>
                 <div class="job">
                     <h3>Web App Development</h3>
-                    <p>2024</p>
+                    <p class="job-company">2024</p>
                     <p>Designed and developed a Budget Calculator web app for Digiseg using HTML, CSS, JavaScript, Bootstrap, MockAPI, and Auth0 for secure user authentication and data handling.</p>
                 </div>
             </div>

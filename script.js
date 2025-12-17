@@ -1,14 +1,31 @@
 const content = {
     en: {
         name: "Juan Manuel Canovas",
+        tagline: "IA & Automation Engineer | Co-Founder",
         aboutTitle: "About Me",
         aboutText: "A proactive and highly adaptable professional with strong problem-solving skills and a genuine passion for technology and software development. Currently in the second year of the TUDAI program at UNICEN, building a solid foundation in programming, algorithms, and modern development practices. Thrives in dynamic environments, excels in teamwork, and continuously seeks opportunities to expand technical expertise while contributing to impactful projects.",
         skillsTitle: "Skills",
         skills: [
-            "Frontend Development: HTML, CSS, JavaScript, Bootstrap, Angular, TypeScript",
-            "Automation & AI: N8N, Selenium, Multi-Agent Systems",
-            "Backend & Tools: Java, Git, REST APIs, Authentication (Auth0), DevOps (Deployment, Monitoring)",
-            "Soft Skills: Teamwork, Problem-Solving, Adaptability"
+            {
+                icon: "fas fa-code",
+                title: "Frontend Development",
+                desc: "HTML, CSS, JavaScript, Bootstrap, Angular, TypeScript"
+            },
+            {
+                icon: "fas fa-robot",
+                title: "Automation & AI",
+                desc: "N8N, Selenium, Multi-Agent Systems"
+            },
+            {
+                icon: "fas fa-server",
+                title: "Backend & Tools",
+                desc: "Java, Git, REST APIs, Authentication (Auth0), DevOps (Deployment, Monitoring)"
+            },
+            {
+                icon: "fas fa-users",
+                title: "Soft Skills",
+                desc: "Teamwork, Problem-Solving, Adaptability"
+            }
         ],
         experienceTitle: "Experience",
         experience: [
@@ -33,14 +50,31 @@ const content = {
     },
     es: {
         name: "Juan Manuel Canovas",
+        tagline: "Ingeniero de IA y Automatización | Co-Fundador",
         aboutTitle: "Sobre Mí",
         aboutText: "Profesional proactivo y altamente adaptable con sólidas habilidades para resolver problemas y una genuina pasión por la tecnología y el desarrollo de software. Actualmente en el segundo año del programa TUDAI en UNICEN, fortaleciendo mis bases en programación, algoritmos y prácticas de desarrollo modernas. Prosperan en entornos dinámicos, destacan en el trabajo en equipo y buscan constantemente oportunidades para expandir mis habilidades técnicas mientras contribuyen a proyectos impactantes.",
         skillsTitle: "Habilidades",
         skills: [
-            "Desarrollo Frontend: HTML, CSS, JavaScript, Bootstrap, Angular, TypeScript",
-            "Automatización e IA: N8N, Selenium, Sistemas Multi-Agente",
-            "Backend y Herramientas: Java, Git, APIs REST, Autenticación (Auth0), DevOps (Despliegue, Monitoreo)",
-            "Habilidades Blandas: Trabajo en Equipo, Resolución de Problemas, Adaptabilidad"
+            {
+                icon: "fas fa-code",
+                title: "Desarrollo Frontend",
+                desc: "HTML, CSS, JavaScript, Bootstrap, Angular, TypeScript"
+            },
+            {
+                icon: "fas fa-robot",
+                title: "Automatización e IA",
+                desc: "N8N, Selenium, Sistemas Multi-Agente"
+            },
+            {
+                icon: "fas fa-server",
+                title: "Backend y Herramientas",
+                desc: "Java, Git, APIs REST, Autenticación (Auth0), DevOps (Despliegue, Monitoreo)"
+            },
+            {
+                icon: "fas fa-users",
+                title: "Habilidades Blandas",
+                desc: "Trabajo en Equipo, Resolución de Problemas, Adaptabilidad"
+            }
         ],
         experienceTitle: "Experiencia",
         experience: [
@@ -75,15 +109,17 @@ document.getElementById('lang-btn').addEventListener('click', () => {
 function updateContent() {
     const lang = content[currentLang];
     document.getElementById('name').textContent = lang.name;
+    document.getElementById('tagline').textContent = lang.tagline;
     document.getElementById('about-title').textContent = lang.aboutTitle;
     document.getElementById('about-text').textContent = lang.aboutText;
     document.getElementById('skills-title').textContent = lang.skillsTitle;
-    const skillsList = document.getElementById('skills-list');
-    skillsList.innerHTML = '';
+    const skillsGrid = document.getElementById('skills-grid');
+    skillsGrid.innerHTML = '';
     lang.skills.forEach(skill => {
-        const li = document.createElement('li');
-        li.textContent = skill;
-        skillsList.appendChild(li);
+        const card = document.createElement('div');
+        card.className = 'skill-card';
+        card.innerHTML = `<i class="${skill.icon}"></i><h3>${skill.title}</h3><p>${skill.desc}</p>`;
+        skillsGrid.appendChild(card);
     });
     document.getElementById('experience-title').textContent = lang.experienceTitle;
     const expContent = document.getElementById('experience-content');
@@ -91,7 +127,7 @@ function updateContent() {
     lang.experience.forEach(job => {
         const div = document.createElement('div');
         div.className = 'job';
-        div.innerHTML = `<h3>${job.title}</h3><p>${job.company}</p><p>${job.desc}</p>`;
+        div.innerHTML = `<h3>${job.title}</h3><p class="job-company">${job.company}</p><p>${job.desc}</p>`;
         expContent.appendChild(div);
     });
     document.getElementById('education-title').textContent = lang.educationTitle;
