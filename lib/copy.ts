@@ -1,0 +1,180 @@
+export const copy = {
+  es: {
+    navbar: {
+      home: "Inicio",
+      experience: "Experiencia",
+      projects: "Proyectos",
+      skills: "Habilidades",
+      startup: "Startup",
+      contact: "Contacto",
+      themeToggle: "Cambiar tema",
+      langToggle: "Cambiar idioma"
+    },
+    hero: {
+      title: "Hola, soy Juan Cano",
+      subtitle: "Desarrollador Full Stack especializado en soluciones enterprise y productos SaaS de alto rendimiento.",
+      ctaPrimary: "Hablemos",
+      ctaSecondary: "Ver Proyectos"
+    },
+    experience: {
+      title: "Mi Experiencia",
+      subtitle: "Desarrollo Full Stack",
+      description: "Especializado en tecnologías modernas como Next.js, TypeScript y Node.js. Experiencia en arquitectura de sistemas escalables y optimización de performance.",
+      bullet1: "• Desarrollo de aplicaciones web enterprise",
+      bullet2: "• Integración de APIs y bases de datos",
+      bullet3: "• Implementación de CI/CD y DevOps",
+      statsTitle: "Tecnologías Clave",
+      stat1: "5+",
+      stat1Desc: "Años de Experiencia",
+      stat2: "50+",
+      stat2Desc: "Proyectos Completados"
+    },
+    projects: {
+      title: "Proyectos Destacados",
+      project1: {
+        title: "E-commerce Platform",
+        description: "Plataforma de comercio electrónico escalable con integración de pagos y gestión de inventario.",
+        tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"]
+      },
+      project2: {
+        title: "SaaS Dashboard",
+        description: "Dashboard administrativo para gestión de usuarios y analytics en tiempo real.",
+        tech: ["React", "Node.js", "MongoDB", "Chart.js"]
+      },
+      project3: {
+        title: "Mobile App Backend",
+        description: "API RESTful para aplicación móvil con autenticación JWT y notificaciones push.",
+        tech: ["Express.js", "TypeScript", "Redis", "Firebase"]
+      },
+      viewMore: "Ver Más"
+    },
+    skills: {
+      title: "Tecnologías",
+      frontend: "Frontend",
+      backend: "Backend",
+      cloud: "Cloud",
+      mobile: "Mobile"
+    },
+    startup: {
+      title: "DIGITAL SOLUTIONS FP",
+      mainTitle: "Soluciones Digitales a Medida",
+      subheadline: "Transformamos procesos en resultados",
+      description: "Desarrollamos soluciones tecnológicas personalizadas que optimizan operaciones y potencian el crecimiento de tu negocio. Desde páginas web dinámicas hasta sistemas administrativos completos.",
+      features: [
+        { name: "Páginas Web", icon: "Globe" },
+        { name: "Bots & Automatizaciones", icon: "Bot" },
+        { name: "Sistemas Administrativos", icon: "Settings" }
+      ],
+      buttons: {
+        links: "Nuestros Enlaces",
+        instagram: "Instagram"
+      }
+    },
+    contact: {
+      title: "Hablemos",
+      subtitle: "¿Listo para colaborar?",
+      description: "Estoy disponible para proyectos freelance, consultorías o posiciones full-time. Hablemos sobre cómo podemos trabajar juntos.",
+      email: "Email:",
+      emailValue: "juan@example.com",
+      linkedin: "LinkedIn:",
+      linkedinValue: "@juancano",
+      namePlaceholder: "Tu Nombre",
+      empresaPlaceholder: "Tu Empresa",
+      messagePlaceholder: "Tu Mensaje",
+      submit: "Enviar Mensaje",
+      directButton: "Escribirme ahora"
+    },
+    footer: {
+      copyright: "© 2025 Juan Cano. Todos los derechos reservados."
+    }
+  },
+  en: {
+    navbar: {
+      home: "Home",
+      experience: "Experience",
+      projects: "Projects",
+      skills: "Skills",
+      startup: "Startup",
+      contact: "Contact",
+      themeToggle: "Toggle theme",
+      langToggle: "Toggle language"
+    },
+    hero: {
+      title: "Hi, I'm Juan Cano",
+      subtitle: "Full Stack Developer specialized in enterprise solutions and high-performance SaaS products.",
+      ctaPrimary: "Let's Talk",
+      ctaSecondary: "View Projects"
+    },
+    experience: {
+      title: "My Experience",
+      subtitle: "Full Stack Development",
+      description: "Specialized in modern technologies like Next.js, TypeScript and Node.js. Experience in scalable system architecture and performance optimization.",
+      bullet1: "• Enterprise web application development",
+      bullet2: "• API integration and databases",
+      bullet3: "• CI/CD and DevOps implementation",
+      statsTitle: "Key Technologies",
+      stat1: "5+",
+      stat1Desc: "Years of Experience",
+      stat2: "50+",
+      stat2Desc: "Projects Completed"
+    },
+    projects: {
+      title: "Featured Projects",
+      project1: {
+        title: "E-commerce Platform",
+        description: "Scalable e-commerce platform with payment integration and inventory management.",
+        tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"]
+      },
+      project2: {
+        title: "SaaS Dashboard",
+        description: "Administrative dashboard for user management and real-time analytics.",
+        tech: ["React", "Node.js", "MongoDB", "Chart.js"]
+      },
+      project3: {
+        title: "Mobile App Backend",
+        description: "RESTful API for mobile app with JWT authentication and push notifications.",
+        tech: ["Express.js", "TypeScript", "Redis", "Firebase"]
+      },
+      viewMore: "View More"
+    },
+    skills: {
+      title: "Technologies",
+      frontend: "Frontend",
+      backend: "Backend",
+      cloud: "Cloud",
+      mobile: "Mobile"
+    },
+    startup: {
+      title: "DIGITAL SOLUTIONS FP",
+      mainTitle: "Custom Digital Solutions",
+      subheadline: "We transform processes into results",
+      description: "We develop customized technological solutions that optimize operations and boost your business growth. From dynamic websites to complete administrative systems.",
+      features: [
+        { name: "Web Pages", icon: "Globe" },
+        { name: "Bots & Automations", icon: "Bot" },
+        { name: "Administrative Systems", icon: "Settings" }
+      ],
+      buttons: {
+        links: "Our Links",
+        instagram: "Instagram"
+      }
+    },
+    contact: {
+      title: "Let's Talk",
+      subtitle: "Ready to collaborate?",
+      description: "I'm available for freelance projects, consulting, or full-time positions. Let's talk about how we can work together.",
+      email: "Email:",
+      emailValue: "juan@example.com",
+      linkedin: "LinkedIn:",
+      linkedinValue: "@juancano",
+      namePlaceholder: "Your Name",
+      empresaPlaceholder: "Your Company",
+      messagePlaceholder: "Your Message",
+      submit: "Send Message",
+      directButton: "Write me now"
+    },
+    footer: {
+      copyright: "© 2025 Juan Cano. All rights reserved."
+    }
+  }
+};
