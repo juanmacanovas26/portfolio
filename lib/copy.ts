@@ -12,17 +12,19 @@ export const copy = {
     },
     hero: {
       title: "Hola, soy Juanma Canovas",
-      subtitle: "Desarrollo sistemas con IA, automatizaciones y software a medida: chatbots de atención, CRMs inteligentes, flujos con n8n y productos SaaS listos para escalar.",
+      subtitle: "Desarrollo sistemas con IA, automatizaciones y software a medida: chatbots de atención al publico, CRMs inteligentes, flujos con n8n, web apps y productos SaaS listos para escalar.",
       ctaPrimary: "Hablemos de tu sistema",
       ctaSecondary: "Ver soluciones"
     },
     experience: {
       title: "Mi Experiencia",
       subtitle: "Desarrollo Full Stack",
-      description: "Especializado en tecnologías modernas como Next.js, TypeScript y Node.js. Experiencia en arquitectura de sistemas escalables y optimización de performance.",
+      description: "Especializado en tecnologías modernas como React, TypeScript y Node.js. Experiencia en arquitectura de sistemas escalables y optimización de performance.",
       bullet1: "• Desarrollo de aplicaciones web enterprise",
-      bullet2: "• Integración de APIs y bases de datos",
-      bullet3: "• Implementación de CI/CD y DevOps",
+      bullet2: "• Integraciones con n8n, Supabase, APIs y bases de datos",
+      bullet3: "• Automatización de atención al cliente con chatbots IA (WhatsApp / Web)",
+      bullet4: "• Creación de CRMs a medida conectados a ventas y soporte",
+      bullet5: "• Infraestructura y despliegue en VPS y cloud",
       statsTitle: "Tecnologías Clave",
       stat1: "5+",
       stat1Desc: "Años de Experiencia",
@@ -32,19 +34,19 @@ export const copy = {
     projects: {
       title: "Proyectos Destacados",
       project1: {
-        title: "E-commerce Platform",
-        description: "Plataforma de comercio electrónico escalable con integración de pagos y gestión de inventario.",
-        tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"]
+        title: "Plataforma de Cursos Online (LMS)",
+        description: "Plataforma de formación online desarrollada con WordPress y Tutor LMS, con gestión de cursos, alumnos, pagos y contenidos educativos.",
+        tech: ["Wordpress", "Tutor LMS","Stripe", "Pasarelas de pago"]
       },
       project2: {
-        title: "SaaS Dashboard",
-        description: "Dashboard administrativo para gestión de usuarios y analytics en tiempo real.",
-        tech: ["React", "Node.js", "MongoDB", "Chart.js"]
+        title: "Plataforma de Gestión Empresarial Modular (ERP + IA)",
+        description: "Sistema integral desarrollado para centralizar operaciones empresariales, automatizar procesos y unificar datos de múltiples fuentes en tiempo real. Incluye gestión de stock, ventas multicanal, usuarios, proveedores, facturación electrónica, reportes contables y un asistente con IA integrado dentro de la plataforma. Arquitectura modular: cada negocio activa solo los módulos que necesita.",
+        tech: ["React", "Supabase (PostgreSQL + Edge Functions)", "APIs externas", "IA"]
       },
       project3: {
-        title: "Mobile App Backend",
-        description: "API RESTful para aplicación móvil con autenticación JWT y notificaciones push.",
-        tech: ["Express.js", "TypeScript", "Redis", "Firebase"]
+        title: "CRM con Automatización e IA",
+        description: "Sistema de gestión de clientes con automatizaciones en n8n, notificaciones inteligentes y dashboard en tiempo real.",
+        tech: ["JS", "n8n", "apiREST", "Supabase"]
       },
       viewMore: "Ver Más"
     },
