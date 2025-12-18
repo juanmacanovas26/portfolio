@@ -27,7 +27,8 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => {
   const isFeatured = index === 1;
-
+  const isCRM = index === 2;
+  const isLMS = index === 0;
   return (
     <motion.div
       key={index}
@@ -45,7 +46,7 @@ const Projects = () => {
           </span>
         </div>
       )}
-
+      
       <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
 
       <p className="text-muted-foreground mb-4 whitespace-pre-line">
@@ -72,7 +73,9 @@ const Projects = () => {
             hover:-translate-y-[1px]
             hover:shadow-lg hover:shadow-emerald-500/20
         "
-        href={isFeatured ? "https://tienda-space.webflow.io/" : undefined}
+        href={isFeatured ? "https://tienda-space.webflow.io/" : isCRM ? "https://dsfp.space/" : isLMS ? "https://2dtechnoacademy.com/" : undefined}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         {copy[lang].projects.viewMore}
       </a>
