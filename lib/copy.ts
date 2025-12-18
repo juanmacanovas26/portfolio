@@ -11,10 +11,10 @@ export const copy = {
       langToggle: "Cambiar idioma"
     },
     hero: {
-      title: "Hola, soy Juan Cano",
-      subtitle: "Desarrollador Full Stack especializado en soluciones enterprise y productos SaaS de alto rendimiento.",
-      ctaPrimary: "Hablemos",
-      ctaSecondary: "Ver Proyectos"
+      title: "Hola, soy Juanma Canovas",
+      subtitle: "Desarrollo sistemas con IA, automatizaciones y software a medida: chatbots de atención, CRMs inteligentes, flujos con n8n y productos SaaS listos para escalar.",
+      ctaPrimary: "Hablemos de tu sistema",
+      ctaSecondary: "Ver soluciones"
     },
     experience: {
       title: "Mi Experiencia",
@@ -77,7 +77,7 @@ export const copy = {
       email: "Email:",
       emailValue: "juan@example.com",
       linkedin: "LinkedIn:",
-      linkedinValue: "@juancano",
+      linkedinValue: "@juanmacanovas",
       namePlaceholder: "Tu Nombre",
       empresaPlaceholder: "Tu Empresa",
       messagePlaceholder: "Tu Mensaje",
@@ -85,7 +85,7 @@ export const copy = {
       directButton: "Escribirme ahora"
     },
     footer: {
-      copyright: "© 2025 Juan Cano. Todos los derechos reservados."
+      copyright: "© 2025 Juanma Canovas. Todos los derechos reservados."
     }
   },
   en: {
@@ -100,7 +100,7 @@ export const copy = {
       langToggle: "Toggle language"
     },
     hero: {
-      title: "Hi, I'm Juan Cano",
+      title: "Hi, I'm Juanma Canovas",
       subtitle: "Full Stack Developer specialized in enterprise solutions and high-performance SaaS products.",
       ctaPrimary: "Let's Talk",
       ctaSecondary: "View Projects"
@@ -166,7 +166,7 @@ export const copy = {
       email: "Email:",
       emailValue: "juan@example.com",
       linkedin: "LinkedIn:",
-      linkedinValue: "@juancano",
+      linkedinValue: "@juanmacanovas",
       namePlaceholder: "Your Name",
       empresaPlaceholder: "Your Company",
       messagePlaceholder: "Your Message",
@@ -174,7 +174,7 @@ export const copy = {
       directButton: "Write me now"
     },
     footer: {
-      copyright: "© 2025 Juan Cano. All rights reserved."
+      copyright: "© 2025 Juanma Canovas. All rights reserved."
     }
   }
 };
