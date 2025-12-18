@@ -34,10 +34,14 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button size="lg" className="bg-primary hover:bg-primary/90">
+          <a href="#contact">
             {copy[lang].hero.ctaPrimary}
+          </a>
           </Button>
           <Button variant="outline" size="lg">
+            <a href="#projects">
             {copy[lang].hero.ctaSecondary}
+            </a>
           </Button>
         </motion.div>
       </div>
