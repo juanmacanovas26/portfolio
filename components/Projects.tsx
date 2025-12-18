@@ -43,8 +43,8 @@ const Projects = () => {
                 ))}
               </div>
               <Button variant="outline" className='mt-4 justify-start
-    border-emerald-500/30 text-emerald-400
-    hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
+    bg-emerald-500 text-black
+    hover:bg-emerald-600
     transition-colors' size="sm">{copy[lang].projects.viewMore}</Button>
             </motion.div>
           ))}
