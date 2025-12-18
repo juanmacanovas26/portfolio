@@ -60,8 +60,9 @@ const Projects = () => {
       border-emerald-500/30 text-white-400
       hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
       transition-all
-      hover:-translate-y-[1px]
-      hover:shadow-lg hover:shadow-emerald-500/5
+      hover:bg-emerald-600
+hover:shadow-lg hover:shadow-emerald-500/20
+hover:-translate-y-[1px]
     "
   >
     {copy[lang].projects.viewMore}
