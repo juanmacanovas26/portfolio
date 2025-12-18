@@ -26,10 +26,16 @@ const Projects = () => {
         </motion.h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => {
-  const isFeatured = index === 1;
-  const isCRM = index === 2;
-  const isLMS = index === 0;
-  const shouldCenter = isLMS || isCRM;
+  const isFeatured = index === 1; // ERP al medio
+  const shouldCenterContent = index === 0 || index === 2; // LMS y CRM
+
+  const href =
+    index === 1
+      ? "https://tienda-space.webflow.io/"
+      : index === 2
+      ? "https://dsfp.space/"
+      : "https://2dtechnoacademy.com/";
+
   return (
     <motion.div
       key={index}
@@ -38,43 +44,47 @@ const Projects = () => {
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className={`bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col ${
         isFeatured ? "ring-1 ring-emerald-500/20" : ""
-      }${shouldCenter ? "justify-center" : ""}`}
+      }`}
     >
-      {isFeatured && (
-        <div className="mb-3">
-          <span className="inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">
-            Proyecto principal
-          </span>
+      {/* BLOQUE CENTRABLE (solo para LMS y CRM) */}
+      <div className={shouldCenterContent ? "my-auto" : ""}>
+        {isFeatured && (
+          <div className="mb-3">
+            <span className="inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">
+              Proyecto principal
+            </span>
+          </div>
+        )}
+
+        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+
+        <p className="text-muted-foreground mb-4 whitespace-pre-line">
+          {project.description}
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-6">
+          {project.tech.map((tech) => (
+            <span
+              key={tech}
+              className="px-2 py-1 bg-primary/10 text-primary text-sm rounded"
+            >
+              {tech}
+            </span>
+          ))}
         </div>
-      )}
-      
-      <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-
-      <p className="text-muted-foreground mb-4 whitespace-pre-line">
-        {project.description}
-      </p>
-
-      <div className="flex flex-wrap gap-2 mb-6">
-        {project.tech.map((tech) => (
-          <span
-            key={tech}
-            className="px-2 py-1 bg-primary/10 text-primary text-sm rounded"
-          >
-            {tech}
-          </span>
-        ))}
       </div>
 
+      {/* BOTÓN SIEMPRE ABAJO */}
       <a
         className="
           mt-auto w-full h-10 rounded-md
-            bg-emerald-500 text-white font-medium flex items-center justify-center
-            hover:bg-emerald-600
-            transition-all
-            hover:-translate-y-[1px]
-            hover:shadow-lg hover:shadow-emerald-500/20
+          bg-emerald-500 text-white font-medium flex items-center justify-center
+          hover:bg-emerald-600
+          transition-all
+          hover:-translate-y-[1px]
+          hover:shadow-lg hover:shadow-emerald-500/20
         "
-        href={isFeatured ? "https://tienda-space.webflow.io/" : isCRM ? "https://dsfp.space/" : isLMS ? "https://2dtechnoacademy.com/" : undefined}
+        href={href}
         target="_blank"
         rel="noopener noreferrer"
       >
