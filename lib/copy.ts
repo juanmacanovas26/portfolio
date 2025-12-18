@@ -67,15 +67,15 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
         },
         backend: {
           label: "Backend",
-          items: ["Supabase (Postgres + Edge Functions)", "REST APIs", "integraciones externas"]
+          items: ["Supabase (Postgres + Edge Functions)", "REST APIs", "Integraciones externas"]
         },
         cloud: {
           label: "Cloud",
-          items: ["VPS setup", "deployments", "dominios/SSL", "CI/CD básico"]
+          items: ["VPS setup", "Deployments", "Dominios/SSL", "CI/CD básico"]
         },
         ai: {
           label: "IA",
-          items: ["chatbots WhatsApp/Web", "asistentes dentro del SaaS", "automatización con n8n + IA"]
+          items: ["Chatbots WhatsApp/Web", "Asistentes dentro del SaaS", "Automatizaciones con n8n + IA"]
         }
       }
     },
