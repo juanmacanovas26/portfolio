@@ -60,10 +60,24 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
     },
     skills: {
       title: "Tecnologías",
-      frontend: "Frontend",
-      backend: "Backend",
-      cloud: "Cloud",
-      mobile: "Mobile"
+      tabs: {
+        frontend: {
+          label: "Frontend",
+          items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI para dashboards/admin"]
+        },
+        backend: {
+          label: "Backend",
+          items: ["Supabase (Postgres + Edge Functions)", "REST APIs", "integraciones externas"]
+        },
+        cloud: {
+          label: "Cloud",
+          items: ["VPS setup", "deployments", "dominios/SSL", "CI/CD básico"]
+        },
+        ai: {
+          label: "IA",
+          items: ["chatbots WhatsApp/Web", "asistentes dentro del SaaS", "automatización con n8n + IA"]
+        }
+      }
     },
     startup: {
       title: "DIGITAL SOLUTIONS FP",
@@ -151,10 +165,24 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
     },
     skills: {
       title: "Technologies",
-      frontend: "Frontend",
-      backend: "Backend",
-      cloud: "Cloud",
-      mobile: "Mobile"
+      tabs: {
+        frontend: {
+          label: "Frontend",
+          items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI for dashboards/admin"]
+        },
+        backend: {
+          label: "Backend",
+          items: ["Supabase (Postgres + Edge Functions)", "REST APIs", "external integrations"]
+        },
+        cloud: {
+          label: "Cloud",
+          items: ["VPS setup", "deployments", "domains/SSL", "basic CI/CD"]
+        },
+        ai: {
+          label: "AI",
+          items: ["WhatsApp/Web chatbots", "assistants within SaaS", "automation with n8n + AI"]
+        }
+      }
     },
     startup: {
       title: "DIGITAL SOLUTIONS FP",
