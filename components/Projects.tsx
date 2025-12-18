@@ -42,10 +42,14 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Button variant="outline" className='mt-4 justify-start
-    bg-emerald-500 text-black
-    hover:bg-emerald-600
-    transition-colors' size="sm">{copy[lang].projects.viewMore}</Button>
+              <Button variant="outline" className='mt-4
+    w-fit
+    px-4 py-2
+    rounded-md
+    border-emerald-500/30 text-emerald-400
+    hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
+    transition-all
+    hover:-translate-y-[1px]' size="sm">{copy[lang].projects.viewMore}</Button>
             </motion.div>
           ))}
         </div>
