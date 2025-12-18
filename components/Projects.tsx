@@ -66,11 +66,11 @@ const Projects = () => {
       <a
         className="
           mt-auto w-full h-10 rounded-md
-          bg-emerald-500 text-black
-          hover:bg-emerald-600
-          transition-all
-          hover:-translate-y-[1px]
-          hover:shadow-lg hover:shadow-emerald-500/20
+            bg-emerald-500 text-white font-medium flex items-center justify-center
+            hover:bg-emerald-600
+            transition-all
+            hover:-translate-y-[1px]
+            hover:shadow-lg hover:shadow-emerald-500/20
         "
         href={isFeatured ? "https://erp-digital-solutions.vercel.app/" : undefined}
       >
