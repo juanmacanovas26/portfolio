@@ -125,41 +125,49 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
     },
     hero: {
       title: "Hi, I'm Juanma Canovas",
-      subtitle: "Full Stack Developer specialized in enterprise solutions and high-performance SaaS products.",
-      ctaPrimary: "Let's Talk",
-      ctaSecondary: "View Projects"
+      subtitle: "I'm an Automation & AI Engineer developing systems with AI, automations, and custom software: public attention chatbots, intelligent CRMs, n8n workflows, web apps, and enterprise SaaS products ready to scale.",
+      ctaPrimary: "Let's talk about your system",
+      ctaSecondary: "View solutions"
     },
     experience: {
       title: "My Experience",
-      subtitle: "Full Stack Development",
-      description: "Specialized in modern technologies like Next.js, TypeScript and Node.js. Experience in scalable system architecture and performance optimization.",
+      subtitle: "Full Stack Systems, Automation & Applied AI",
+      description: "I develop business-oriented full stack systems, combining modern frontend, scalable backends, and process automation. Experience in designing modular architectures, API integrations, and optimization of operational flows for companies.",
       bullet1: "• Enterprise web application development",
-      bullet2: "• API integration and databases",
-      bullet3: "• CI/CD and DevOps implementation",
-      bullet4: "• Creación de CRMs a medida conectados a ventas y soporte",
-      bullet5: "• Infraestructura y despliegue en VPS y cloud",
-      statsTitle: "Key Technologies",
-      stat1: "5+",
-      stat1Desc: "Years of Experience",
-      stat2: "50+",
-      stat2Desc: "Projects Completed"
+      bullet2: "• Integrations with n8n, Supabase, APIs, and databases",
+      bullet3: "• Customer service automation with AI chatbots (WhatsApp / Web)",
+      bullet4: "• Creation of custom CRMs connected to sales and support",
+      bullet5: "• Infrastructure and deployment on VPS and cloud",
+      statsTitle: "Experience in Real Projects",
+      stat1: "3+",
+      stat1Desc: "Years developing productive systems",
+      stat2: "30+",
+      stat2Desc: "Projects and automations delivered"
     },
     projects: {
       title: "Featured Projects",
       project1: {
-        title: "E-commerce Platform",
-        description: "Scalable e-commerce platform with payment integration and inventory management.",
-        tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"]
+        title: "Online Courses Platform (LMS)",
+        description: `Online training platform developed with WordPress and Tutor LMS, with course management, students, payments, and educational content.
+
+Oriented towards monetization of digital training and management of educational communities.`,
+        tech: ["Wordpress", "Tutor LMS","Stripe", "Payment gateways"]
       },
       project2: {
-        title: "SaaS Dashboard",
-        description: "Administrative dashboard for user management and real-time analytics.",
-        tech: ["React", "Node.js", "MongoDB", "Chart.js"]
+        title: "Modular Business Management Platform (ERP + AI)",
+        description: `Comprehensive enterprise platform to centralize operations, automate processes, and unify data from multiple systems.
+Includes inventory management, multichannel sales, users, suppliers, electronic invoicing, accounting reports, and an integrated AI assistant.
+Modular architecture: each business activates only the modules it needs.
+
+Optimized for SMEs seeking operational efficiency and scalability.`,
+        tech: ["React", "Supabase (PostgreSQL + Edge Functions)", "External APIs", "AI"]
       },
       project3: {
-        title: "Mobile App Backend",
-        description: "RESTful API for mobile app with JWT authentication and push notifications.",
-        tech: ["Express.js", "TypeScript", "Redis", "Firebase"]
+        title: "CRM with Automation & AI",
+        description: `Customer management system with n8n automations, recapturing bots and lead management, intelligent notifications, automatic calendars, and real-time dashboard.
+
+Optimized for sales and support teams seeking to maximize conversions and operational efficiency.`,
+        tech: ["JS", "n8n", "REST API", "Supabase"]
       },
       viewMore: "View More"
     },
@@ -172,15 +180,15 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
         },
         backend: {
           label: "Backend",
-          items: ["Supabase (Postgres + Edge Functions)", "REST APIs", "external integrations"]
+          items: ["Supabase (Postgres + Edge Functions)", "REST APIs", "External integrations"]
         },
         cloud: {
           label: "Cloud",
-          items: ["VPS setup", "deployments", "domains/SSL", "basic CI/CD"]
+          items: ["VPS setup", "Deployments", "Domains/SSL", "Basic CI/CD"]
         },
         ai: {
           label: "AI",
-          items: ["WhatsApp/Web chatbots", "assistants within SaaS", "automation with n8n + AI"]
+          items: ["WhatsApp/Web chatbots", "Assistants within SaaS", "Automation with n8n + AI"]
         }
       }
     },

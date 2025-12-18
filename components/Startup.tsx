@@ -50,7 +50,7 @@ const Startup = () => {
             })}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" onClick={() => window.open('https://example.com/links', '_blank', 'noopener,noreferrer')}>
+            <Button variant="outline" onClick={() => window.open('https://dsfp.space/', '_blank', 'noopener,noreferrer')}>
               {copy[lang].startup.buttons.links}
             </Button>
             <Button variant="outline" onClick={() => window.open('https://instagram.com/digital_solutions_fp', '_blank', 'noopener,noreferrer')}>
