@@ -63,7 +63,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <Button
+      <a
         className="
           mt-auto w-full h-10 rounded-md
           bg-emerald-500 text-black
@@ -72,9 +72,10 @@ const Projects = () => {
           hover:-translate-y-[1px]
           hover:shadow-lg hover:shadow-emerald-500/20
         "
+        href={isFeatured ? "https://erp-digital-solutions.vercel.app/" : undefined}
       >
         {copy[lang].projects.viewMore}
-      </Button>
+      </a>
     </motion.div>
   );
 })}
