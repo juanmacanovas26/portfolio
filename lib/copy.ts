@@ -12,7 +12,7 @@ export const copy = {
     },
     hero: {
       title: "Hola, soy Juanma Canovas",
-      subtitle: "Desarrollo sistemas con IA, automatizaciones y software a medida: chatbots de atención al publico, CRMs inteligentes, flujos con n8n, web apps y productos SaaS listos para escalar.",
+      subtitle: "Soy Automation & AI Engineer desarrollo sistemas con IA, automatizaciones y software a medida: chatbots de atención al publico, CRMs inteligentes, flujos con n8n, web apps y productos SaaS empresariales listos para escalar.",
       ctaPrimary: "Hablemos de tu sistema",
       ctaSecondary: "Ver soluciones"
     },
@@ -35,12 +35,12 @@ export const copy = {
       title: "Proyectos Destacados",
       project1: {
         title: "Plataforma de Cursos Online (LMS)",
-        description: "Plataforma de formación online desarrollada con WordPress y Tutor LMS, con gestión de cursos, alumnos, pagos y contenidos educativos.",
+        description: "Plataforma de formación online desarrollada con WordPress y Tutor LMS, con gestión de cursos, alumnos, pagos y contenidos educativos. /b Orientada a la monetización de formación digital y gestión de comunidades educativas.",
         tech: ["Wordpress", "Tutor LMS","Stripe", "Pasarelas de pago"]
       },
       project2: {
         title: "Plataforma de Gestión Empresarial Modular (ERP + IA)",
-        description: "Sistema integral desarrollado para centralizar operaciones empresariales, automatizar procesos y unificar datos de múltiples fuentes en tiempo real. Incluye gestión de stock, ventas multicanal, usuarios, proveedores, facturación electrónica, reportes contables y un asistente con IA integrado dentro de la plataforma. Arquitectura modular: cada negocio activa solo los módulos que necesita.",
+        description: "Sistema integral desarrollado para centralizar operaciones empresariales, automatizar procesos y unificar datos de múltiples fuentes en tiempo real. /b Incluye gestión de stock, ventas multicanal, usuarios, proveedores, facturación electrónica, reportes contables y un asistente con IA integrado./b Arquitectura modular: cada negocio activa solo los módulos que necesita.",
         tech: ["React", "Supabase (PostgreSQL + Edge Functions)", "APIs externas", "IA"]
       },
       project3: {
