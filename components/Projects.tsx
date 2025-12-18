@@ -57,7 +57,7 @@ const Projects = () => {
       w-full
       h-10
       rounded-md
-      border-emerald-500/30 text-emerald-400
+      border-emerald-500/30 text-white-400
       hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
       transition-all
       hover:-translate-y-[1px]
