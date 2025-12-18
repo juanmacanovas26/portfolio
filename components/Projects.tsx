@@ -34,7 +34,7 @@ const Projects = () => {
               className="bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
             >
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-muted-foreground mb-4">{project.description}</p>
+              <p className="text-muted-foreground mb-4 whitespace-pre-line" >{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech) => (
                   <span key={tech} className="px-2 py-1 bg-primary/10 text-primary text-sm rounded">
