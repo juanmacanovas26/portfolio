@@ -72,7 +72,7 @@ const Projects = () => {
             hover:-translate-y-[1px]
             hover:shadow-lg hover:shadow-emerald-500/20
         "
-        href={isFeatured ? "https://erp-digital-solutions.vercel.app/" : undefined}
+        href={isFeatured ? "https://tienda-space.webflow.io/" : undefined}
       >
         {copy[lang].projects.viewMore}
       </a>
