@@ -27,30 +27,46 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
-            >
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-muted-foreground mb-4 whitespace-pre-line" >{project.description}</p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tech.map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-primary/10 text-primary text-sm rounded">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <Button variant="outline" className='mt-4
-    w-fit
-    px-4 py-2
-    rounded-md
-    border-emerald-500/30 text-emerald-400
-    hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
-    transition-all
-    hover:-translate-y-[1px]' size="sm">{copy[lang].projects.viewMore}</Button>
-            </motion.div>
+  key={index}
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: index * 0.1 }}
+  className="bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col"
+>
+  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+
+  <p className="text-muted-foreground mb-4 whitespace-pre-line">
+    {project.description}
+  </p>
+
+  <div className="flex flex-wrap gap-2 mb-6">
+    {project.tech.map((tech) => (
+      <span
+        key={tech}
+        className="px-2 py-1 bg-primary/10 text-primary text-sm rounded"
+      >
+        {tech}
+      </span>
+    ))}
+  </div>
+
+  <Button
+    variant="outline"
+    className="
+      mt-auto
+      w-full
+      h-10
+      rounded-md
+      border-emerald-500/30 text-emerald-400
+      hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
+      transition-all
+      hover:-translate-y-[1px]
+      hover:shadow-lg hover:shadow-emerald-500/5
+    "
+  >
+    {copy[lang].projects.viewMore}
+  </Button>
+</motion.div>
           ))}
         </div>
       </div>
