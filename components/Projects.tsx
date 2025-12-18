@@ -51,14 +51,17 @@ const Projects = () => {
   </div>
 
   <Button
-    variant="outline"
+    variant="default"
     className="
-      mt-auto w-full h-10 rounded-md
-    bg-emerald-500/10
-    border-emerald-500/30 text-emerald-300
-    hover:bg-emerald-500/15 hover:border-emerald-500/60
-    transition-all
-    hover:-translate-y-[1px]
+      mt-auto
+      w-full
+      h-10
+      rounded-md
+      border-emerald-500/30 text-emerald-400
+      hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-300
+      transition-all
+      hover:-translate-y-[1px]
+      hover:shadow-lg hover:shadow-emerald-500/5
     "
   >
     {copy[lang].projects.viewMore}
