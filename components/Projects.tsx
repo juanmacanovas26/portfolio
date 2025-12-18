@@ -29,6 +29,7 @@ const Projects = () => {
   const isFeatured = index === 1;
   const isCRM = index === 2;
   const isLMS = index === 0;
+  const shouldCenter = isLMS || isCRM;
   return (
     <motion.div
       key={index}
@@ -37,7 +38,7 @@ const Projects = () => {
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className={`bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col ${
         isFeatured ? "ring-1 ring-emerald-500/20" : ""
-      }`}
+      }${shouldCenter ? "justify-center" : ""}`}
     >
       {isFeatured && (
         <div className="mb-3">
