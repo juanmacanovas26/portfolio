@@ -32,6 +32,8 @@ const Experience = () => {
               <li>{copy[lang].experience.bullet1}</li>
               <li>{copy[lang].experience.bullet2}</li>
               <li>{copy[lang].experience.bullet3}</li>
+              <li>{copy[lang].experience.bullet4}</li>
+              <li>{copy[lang].experience.bullet5}</li>
             </ul>
           </motion.div>
           <motion.div
