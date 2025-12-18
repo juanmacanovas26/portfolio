@@ -42,10 +42,10 @@ export const copy = {
       project2: {
         title: "Plataforma de Gestión Empresarial Modular (ERP + IA)",
         description: `Plataforma empresarial integral para centralizar operaciones,
-automatizar procesos y unificar datos de múltiples sistemas.
+automatizar procesos y unificar datos de múltiples sistemas. /n /n
 
 Incluye gestión de stock, ventas multicanal, usuarios, proveedores,
-facturación electrónica, reportes contables y un asistente con IA integrado.
+facturación electrónica, reportes contables y un asistente con IA integrado. /n /n
 
 Arquitectura modular: cada negocio activa solo los módulos que necesita.`,
         tech: ["React", "Supabase (PostgreSQL + Edge Functions)", "APIs externas", "IA"]
