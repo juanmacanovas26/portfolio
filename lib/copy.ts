@@ -44,13 +44,16 @@ export const copy = {
         title: "Plataforma de Gestión Empresarial Modular (ERP + IA)",
         description: `Plataforma empresarial integral para centralizar operaciones,automatizar procesos y unificar datos de múltiples sistemas.
 Incluye gestión de stock, ventas multicanal, usuarios, proveedores, facturación electrónica, reportes contables y un asistente con IA integrado.
+Arquitectura modular: cada negocio activa solo los módulos que necesita.
 
-Arquitectura modular: cada negocio activa solo los módulos que necesita.`,
+Optimizada para pymes que buscan eficiencia operativa y escalabilidad.`,
         tech: ["React", "Supabase (PostgreSQL + Edge Functions)", "APIs externas", "IA"]
       },
       project3: {
         title: "CRM con Automatización e IA",
-        description: "Sistema de gestión de clientes con automatizaciones en n8n, notificaciones inteligentes y dashboard en tiempo real.",
+        description: `Sistema de gestión de clientes con automatizaciones en n8n, bots de recapturacion y gestion de leads, notificaciones inteligentes, calendarios automaticos y dashboard en tiempo real.
+
+Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y eficiencia operativa.`,
         tech: ["JS", "n8n", "apiREST", "Supabase"]
       },
       viewMore: "Ver Más"
