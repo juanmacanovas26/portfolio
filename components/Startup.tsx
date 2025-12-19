@@ -33,7 +33,7 @@ const Startup = () => {
               initial={{ opacity: 0, y: 6 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="text-sm text-emerald-400 font-medium text-center mb-2 tracking-wide"
+              className="text-sm text-emerald-300/80 font-medium text-center mb-2 tracking-wide"
             >
               Juanma Canovas — Co-Founder & Automation Engineer
             </motion.p>
@@ -61,7 +61,7 @@ const Startup = () => {
             <Button variant="outline" onClick={() => window.open('https://dsfp.space/', '_blank', 'noopener,noreferrer')}>
               {copy[lang].startup.buttons.links}
             </Button>
-            <Button variant="outline" onClick={() => window.open('https://instagram.com/digital_solutions_fp', '_blank', 'noopener,noreferrer')}>
+            <Button variant="outline" onClick={() => window.open('https://instagram.com/digital.solution.fp', '_blank', 'noopener,noreferrer')}>
               {copy[lang].startup.buttons.instagram}
             </Button>
           </div>
