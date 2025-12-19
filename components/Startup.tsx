@@ -65,8 +65,7 @@ const Startup = () => {
               {copy[lang].startup.buttons.links}
             </Button>
             <Button
-              variant="outline"
-              className="border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-200 transition-all duration-200 h-10 px-4 rounded-md"
+              className="bg-transparent border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-200 transition-all duration-200 h-10 px-4 rounded-md"
               onClick={() => window.open('https://instagram.com/digital.solution.fp', '_blank', 'noopener,noreferrer')}
             >
               {copy[lang].startup.buttons.instagram}
