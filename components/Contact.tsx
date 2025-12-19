@@ -55,7 +55,7 @@ const Contact = () => {
           >
             <div className="flex flex-col items-center md:items-start mb-6">
               <Image
-                src="../public/assets/juanma-06595338.jpg"
+                src="/assets/juanma-06595338.jpg"
                 alt="Juanma Canovas"
                 width={140}
                 height={140}
