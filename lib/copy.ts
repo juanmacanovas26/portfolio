@@ -33,6 +33,7 @@ export const copy = {
     },
     projects: {
       title: "Proyectos Destacados",
+      featuredBadge: "Proyecto principal",
       project1: {
         title: "Plataforma de Cursos Online (LMS)",
         description: `Plataforma de formación online desarrollada con WordPress y Tutor LMS, con gestión de cursos, alumnos, pagos y contenidos educativos. 
@@ -146,6 +147,7 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
     },
     projects: {
       title: "Featured Projects",
+      featuredBadge: "Main Project",
       project1: {
         title: "Online Courses Platform (LMS)",
         description: `Online training platform developed with WordPress and Tutor LMS, with course management, students, payments, and educational content.

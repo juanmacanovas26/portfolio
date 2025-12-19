@@ -51,7 +51,7 @@ const Projects = () => {
         {isFeatured && (
           <div className="mb-3">
             <span className="inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300">
-              Proyecto principal
+              {copy[lang].projects.featuredBadge}
             </span>
           </div>
         )}
