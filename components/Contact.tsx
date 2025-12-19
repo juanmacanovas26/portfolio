@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import Image from 'next/image';
 import { useLang } from '@/lib/lang-context';
 import { copy } from '@/lib/copy';
 
@@ -54,12 +53,10 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="flex flex-col items-center md:items-start mb-6">
-              <Image
-                src="/assets/juanma-06595338.jpg"
+              <img
+                src="assets/juanma-06595338.jpg"
                 alt="Juanma Canovas"
-                width={140}
-                height={140}
-                className="w-[112px] h-[112px] md:w-[140px] md:h-[140px] rounded-full border border-emerald-500/20 shadow-lg shadow-black/40 hover:scale-[1.02] hover:shadow-emerald-500/10 transition-all duration-200 object-cover"
+                className="w-36 h-36 rounded-full border border-emerald-500/20 shadow-lg shadow-black/40 object-cover"
               />
             </div>
             <h3 className="text-2xl font-semibold mb-4">{copy[lang].contact.subtitle}</h3>
