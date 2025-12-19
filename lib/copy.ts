@@ -83,14 +83,14 @@ Optimizado para equipos de ventas y soporte que buscan maximizar conversiones y 
       title: "DIGITAL SOLUTIONS FP",
       mainTitle: "Soluciones Digitales a Medida",
       subheadline: "Transformamos procesos en resultados",
-      description: "Desarrollamos soluciones tecnológicas personalizadas que optimizan operaciones y potencian el crecimiento de tu negocio. Desde páginas web dinámicas hasta sistemas administrativos completos.",
+      description: "Diseñamos plataformas internas (CRM/ERP), automatizaciones con n8n y asistentes con IA para atención al cliente y operaciones. Integración con tus canales y APIs (WhatsApp, e-commerce, facturación, etc.).",
       features: [
-        { name: "Páginas Web", icon: "Globe" },
-        { name: "Bots & Automatizaciones", icon: "Bot" },
-        { name: "Sistemas Administrativos", icon: "Settings" }
+        { name: "Web & Landing de Conversión", icon: "Globe" },
+        { name: "Automatización & Chatbots IA (WhatsApp/Web + n8n)", icon: "Bot" },
+        { name: "CRM/ERP a Medida (operaciones + datos + reportes)", icon: "Settings" }
       ],
       buttons: {
-        links: "Nuestros Enlaces",
+        links: "Website",
         instagram: "Instagram"
       }
     },
