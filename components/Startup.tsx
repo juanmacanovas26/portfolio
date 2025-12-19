@@ -21,14 +21,6 @@ const Startup = () => {
         >
           {copy[lang].startup.title}
         </motion.h2>
-        <motion.p
-          initial={{ opacity: 0, y: 6 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="text-sm text-emerald-400 font-medium text-center mb-4"
-        >
-          Juanma Canovas — Co-Founder & Automation Engineer
-        </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -37,6 +29,14 @@ const Startup = () => {
         >
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold mb-2">{copy[lang].startup.mainTitle}</h3>
+            <motion.p
+              initial={{ opacity: 0, y: 6 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="text-sm text-emerald-400 font-medium text-center mb-2 tracking-wide"
+            >
+              Juanma Canovas — Co-Founder & Automation Engineer
+            </motion.p>
             <p className="text-xl text-muted-foreground mb-4">{copy[lang].startup.subheadline}</p>
             <p className="text-muted-foreground max-w-2xl mx-auto">{copy[lang].startup.description}</p>
           </div>
