@@ -51,6 +51,7 @@ const Contact = () => {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="text-center md:text-left"
           >
             <div className="flex flex-col items-center md:items-start mb-6">
               <img
