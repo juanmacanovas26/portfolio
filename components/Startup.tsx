@@ -58,10 +58,17 @@ const Startup = () => {
             })}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" onClick={() => window.open('https://dsfp.space/', '_blank', 'noopener,noreferrer')}>
+            <Button
+              className="bg-emerald-500 text-white hover:bg-emerald-600 hover:shadow-lg hover:shadow-emerald-500/20 hover:-translate-y-[1px] transition-all duration-200 h-10 px-4 rounded-md"
+              onClick={() => window.open('https://dsfp.space/', '_blank', 'noopener,noreferrer')}
+            >
               {copy[lang].startup.buttons.links}
             </Button>
-            <Button variant="outline" onClick={() => window.open('https://instagram.com/digital.solution.fp', '_blank', 'noopener,noreferrer')}>
+            <Button
+              variant="outline"
+              className="border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/10 hover:border-emerald-500/60 hover:text-emerald-200 transition-all duration-200 h-10 px-4 rounded-md"
+              onClick={() => window.open('https://instagram.com/digital.solution.fp', '_blank', 'noopener,noreferrer')}
+            >
               {copy[lang].startup.buttons.instagram}
             </Button>
           </div>
